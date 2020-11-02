@@ -31,7 +31,7 @@ def recognize_voice():
 
   # attempt to print out whatever was recognized and handle any errors that may come up
   try:
-      print(r.recognize_google(audio))
+      print("Recognized: " + r.recognize_google(audio))
   except sr.UnknownValueError:
       pass
   except sr.RequestError as e:
