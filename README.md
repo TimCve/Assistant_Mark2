@@ -20,7 +20,7 @@ $ pip install -e .
 $ pip install .\PyAudio-whatever.version.you_need.whl 
 ```
 (I have included the file for python 3.8 in the repository)
-- Finally, you will need to create a file called conf.py in the config directory in 'Assistant', here is the syntax for that file:
+- Finally, you will need to create a directory called 'config' in 'Assistant' and in there create a file called conf.py, here is the syntax for that file:
 ```
 # MAKE SURE TO TUNE THE SETTINGS TO YOUR NEEDS, THESE ARE TUNED SPECIFICALLY TO *MY* SETUP
 # mic settings 
