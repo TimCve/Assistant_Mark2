@@ -15,12 +15,12 @@ $ .\venv\Scripts\activate # for Windows
 ```
 $ pip install -e .
 ```
-- Note to Windows users, the PyAudio package will likely fail to install, you have to go a download the whl file for PyAudio manually, and install it by simply running:
+- Note to Windows users, the PyAudio package will likely fail to install, you have to go and download the whl file for PyAudio manually, and install it by simply running:
 ```
 $ pip install .\PyAudio-whatever.version.you_need.whl 
 ```
 (I have included the file for python 3.8 in the repository)
-- Finally, you will need to create a file called conf.py in the config directory in Assistant, here is the syntax for that file:
+- Finally, you will need to create a file called conf.py in the config directory in 'Assistant', here is the syntax for that file:
 ```
 # MAKE SURE TO TUNE THE SETTINGS TO YOUR NEEDS, THESE ARE TUNED SPECIFICALLY TO *MY* SETUP
 # mic settings 
